@@ -26,7 +26,7 @@ the spread of COVID-19 on social media. About 500 million tweets are sent everyd
 `alternative_reduce.py` file, similar to a combined version of the `reduce.py` and `visualize.py` files, scans through all of the data in the `outputs` folder created by the mapping process.
 
 
-#Simplifying the Data
+## Simplifying the Data
 I went through the MapReduce procedure to examine the tweets. I created files that inspect daily tweets and made discrete files that follow the usage of the hashtags (both language and country). Following that, I concatenated all of the data in the files into two files, `reduced.lang` and `reduced.country`.
 
 ```
@@ -37,7 +37,7 @@ $ ./src/reduce.py --input_paths outputs/geoTwitter*.lang --output_path=reduced.l
 $ ./src/reduce.py --input_paths outputs/geoTwitter*.country --output_path=reduced.country
 ```
 
-#Visual of the Data
+## Visual of the Data
 
 I then visualized the utilization of both `#coronavirus`and `#코로나바이러스` by language and country. In order to keep in clean, I used just the top 10 languages and countries that used both of these hashtags. 
 
@@ -83,6 +83,6 @@ Finally I created a script that can choose any number of hashtags and record its
 $./alternative_reduce.py --key '#coronavirus' '#sick'
 ```
 
-##Number of Tweets using these hashtags
+## Number of Tweets using these hashtags
 
 ![Number of Tweets using these hashtags](coronavirus_sick.png)
