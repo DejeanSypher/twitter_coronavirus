@@ -61,19 +61,19 @@ These four lines of code above lead to the four graphs displayed under:
 
 ## Language Rate of Occurence for #coronavirus
 
-![Language Rate of Occurence for #coronavirus](#coronavirus_(lang).png)
+![Language Rate of Occurence for #coronavirus](coronavirus_lang.png)
 
 ## Country Rate of Occurrence for #coronavirus
 
-![Country Rate of Occurrence for #coronavirus](#coronavirus_(country).png)
+![Country Rate of Occurrence for #coronavirus](coronavirus_country.png)
 
 ## Language Rate of Occurrence for #코로나바이러스
 
-![Language Rate of Occurrence for #코로나바이러스](#코로나바이러스_(lang).png)
+![Language Rate of Occurrence for #코로나바이러스](코로나바이러스_lang.png)
 
 ## Country Rate of Occurrence for #코로나바이러스
 
-![Country Rate of Occurrence for #코로나바이러스](#코로나바이러스_(country).png)
+![Country Rate of Occurrence for #코로나바이러스](코로나바이러스_country.png)
 
 # Time Series Data for Number of Tweets
 
