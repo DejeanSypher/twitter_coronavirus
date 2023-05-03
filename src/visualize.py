@@ -34,7 +34,7 @@ keys = [x[0] for x in to_plot][::-1]
 values = [y[1] for y in to_plot][::-1]
 
 plt.bar(range(len(keys)), values)
-plt.ylabel('Total Tweets')
+plt.ylabel('Number of Tweets')
 plt.xticks(range(len(keys)), keys)
 
 if 'lang' in args.input_path:
